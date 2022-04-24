@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(to bottom right, rgba(216, 84, 27, 0.762), rgb(233, 192, 25)); */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-image: linear-gradient(to right, blue , yellow); */
+  /* https://www.w3schools.com/colors/colors_gradient.asp source to create gradient colors! */
 }
 
 code {
