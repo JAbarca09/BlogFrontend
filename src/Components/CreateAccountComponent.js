@@ -20,16 +20,16 @@ function CreateAccountComponent() {
     return (
         <Container>
             <Row className="d-flex justify-content-center">
-                <Col md={9} className="mt-5" style={{ backgroundColor: 'gray', borderRadious: 5, padding: 50 }}>
-                    <h1>Create Account</h1>
+                <Col md={9} className="mt-5" style={{ backgroundColor: 'black', borderRadious: 5, padding: 50 }}>
+                    <h1 className='textColor'>Create Account</h1>
                     <Form>
                         <Form.Group className="mb-3" controlId="Username">
-                            <Form.Label>Username</Form.Label>
+                            <Form.Label className='textColor'>Username</Form.Label>
                             <Form.Control type="text" placeholder="Enter Username" onChange={({ target }) => setUsername(target.value)} />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="Password">
-                            <Form.Label>Password</Form.Label>
+                            <Form.Label className='textColor'>Password</Form.Label>
                             <Form.Control type="password" placeholder="Password" onChange={({ target: { value } }) => setPassword(value)} />
                         </Form.Group>
                         <Button variant="primary" onClick={handleSubmit}>

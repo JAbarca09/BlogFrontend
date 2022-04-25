@@ -1,5 +1,14 @@
+.textColor{
+  color: white;
+}
+
 .App {
   text-align: center;
+}
+
+.DashboardBtns{
+  display: flex;
+  justify-content: space-between;
 }
 
 .BlogDescription{
@@ -11,4 +20,5 @@
 .Links{
   color: rgba(255, 255, 255, 0.965) !important;
 }
+
 

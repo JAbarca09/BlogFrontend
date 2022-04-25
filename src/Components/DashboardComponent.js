@@ -294,7 +294,7 @@ function DashboardComponent() {
                                                                             <Col>
                                                                                 {item.title}
                                                                             </Col>
-                                                                            <Col>
+                                                                            <Col className="DashboardBtns">
                                                                                 <Button variant="danger" onClick={() => handleDelete(item)}>Delete</Button>
                                                                                 <Button variant="primary" onClick={(e) => handleShow(e, item)}>Edit</Button>
                                                                                 <Button variant="warning" onClick={() => handlePublish(item)}>Unpublish</Button>
@@ -324,7 +324,7 @@ function DashboardComponent() {
                                                                             <Col>
                                                                                 {item.title}
                                                                             </Col>
-                                                                            <Col>
+                                                                            <Col className="DashboardBtns">
                                                                                 <Button variant="danger" onClick={() => handleDelete(item)}>Delete</Button>
                                                                                 <Button variant="primary" onClick={(e) => handleShow(e, item)}>Edit</Button>
                                                                                 <Button variant="warning" onClick={() => handlePublish(item)}>Publish</Button>
