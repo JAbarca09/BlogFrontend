@@ -1,3 +1,8 @@
+//Jesse Abarca
+//4/24/22
+//Blog Site
+//Blog site, upload backend and frontend to Azure publish them also to GitHub. Turn it in on LMS.
+
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';

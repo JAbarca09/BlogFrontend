@@ -1,3 +1,8 @@
+body{
+  background-image: url("./Assets/milad-fakurian-GJKx5lhwU3M-unsplash.jpg");
+  position: cover;
+}
+
 .textColor{
   color: white;
 }
